@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Bar "Eclipse"</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="global-header">
+    <div class="logo">
+        <a href="index.html">Bar "Eclipse"</a>
+    </div>
+    <div class="hamburger-menu" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="global-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="concept.html">Concept</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h2>Gallery</h2>
+        </div>
+
+        <section class="container gallery-grid fade-in">
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="バーカウンター"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=2157&auto=format&fit=crop" alt="カクテル"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1974&auto=format&fit=crop" alt="店内の雰囲気"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=2157&auto=format&fit=crop" alt="ウィスキーグラス"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/2789328/pexels-photo-2789328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="バーテンダー"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=2157&auto=format&fit=crop" alt="フード"></div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Bar "Eclipse". All Rights Reserved.</p>
+            <p>東京都新宿区夜空町1-2-3 / TEL: 03-1234-5678</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
